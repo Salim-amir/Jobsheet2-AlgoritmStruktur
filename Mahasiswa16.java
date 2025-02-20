@@ -5,8 +5,11 @@ public class Mahasiswa16 {
     String kelas;
     double ipk;
 
+    public Mahasiswa16() {
+
+    }
     public Mahasiswa16(String nm, String nim, double ipk, String kls) {
-        nama = nm;
+        this.nama = nm;
         this.nim = nim;
         this.ipk = ipk;
         this.kelas = kls;
@@ -44,9 +47,5 @@ public class Mahasiswa16 {
     }
 
    
-    public static void main(String[] args) {
-        Mahasiswa16 mhsSalim = new Mahasiswa16("Salim", "2141720160", 3.25, "TI 2L");
-
-        mhsSalim.tampilkanInformasi();
-    }
+    
 }
